@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.texto-standar-1-EstillosGlobales {
+    color:#ba0971;
+    text-align: center;
+}
+
+.contenedor-standar-EstillosGlobales {
+    padding: 0px 3% 0px 3%;
+}
+
+.boton-standar-1-EstillosGlobales {
+    margin: 10px;
+    background: #ba0971;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 10px;
+    width: 300px;
+    height: 100px;
+    text-decoration: none;
+    transition: 0.7s ease all ;
+}
+.boton-standar-1-EstillosGlobales:hover {
+    background: rgb(222, 3, 131);
+    color: white;
+}
+.boton-standar-1-EstillosGlobales:active {
+    background: rgb(255, 49, 169);
+    color: white;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    transition: 0.1s ease all ;
+
+}
+
+.boton-standar-2-EstillosGlobales {
+    background: #a6a6a6;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 20px;
+    width: 260px;
+    height: 80px;
+    margin: 20px 60px 20px 60px;
+    text-decoration: none;
+    transition: 0.7s ease all ;
+
+}
+.boton-standar-2-EstillosGlobales:hover {
+    background: #878787;
+    color: white;
+    
+}
+.boton-standar-2-EstillosGlobales:active {
+    background: rgb(102, 102, 102);
+    color: white;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    transition: 0.1s ease all ;
+
+}
+
+
+.boton-standar-3-EstillosGlobales {
+    background: #646464;
+    color: white;
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 10px;
+    width: 250px;
+    height: 60px;
+    transition: 0.7s ease all ;
+}
+.boton-standar-3-EstillosGlobales:hover {
+    background: rgb(98, 91, 203);
+    color: white;
+}
+.boton-standar-3-EstillosGlobales:active {
+    background: rgb(63, 49, 254);
+    color: white;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    -moz-box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    box-shadow: 0px 0px 35px 0px rgba(128,125,128,1);
+    transition: 0.1s ease all ;
+
+}
+
+
+.boton-standar-4-EstillosGlobales {
+    background: #ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 50px;
+    border: 0;
+    font-weight: bold;
+    font-size: 14pt;
+    padding: 20px;
+    width: 220px;
+    height: 80px;
+    margin: 20px 60px 20px 60px;
+    transition: 0.7s ease all ;
+}
+.boton-standar-4-EstillosGlobales:hover {
+    background: rgb(255, 136, 0);
+    color: white;
+}
+.boton-standar-4-EstillosGlobales:active {
+    background: rgb(224, 120, 2);
+    color: white;
+    -webkit-box-shadow: 0px 0px 35px 0px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 0px 35px 0px rgb(0, 0, 0, 0.7);
+    box-shadow: 0px 0px 35px 0px rgb(0, 0, 0, 0.7);
+    transition: 0.1s ease all ;
+}
+
+
+.boton-redes-sociales-EstillosGlobales {
+    border: 0;
+    background: none;
+    fill: #ba0971;
+}
+
+.boton-back-GlobalStyle {
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    border: 1px solid rgba(4, 4, 4, 0.185);
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    opacity: 0.3;
+    transition: 1s ease all ;
+    cursor: pointer;
+    margin: 10px;
+
+}
+.boton-back-GlobalStyle:hover {
+       opacity: 1;
+       box-shadow: 1px 2px 8px rgba(0, 0, 0, 0.29);
+       border: 1px solid rgb(255, 255, 255);
+       transform: scale(1.1);
+}
+ 
+.boton-back-GlobalStyle:active {
+       background: rgb(238, 238, 238);
+       border: 1px solid rgb(237, 237, 237);
+       transition: 0s ease all ;
+}
+
+.contenedor-control-pagina-EstillosGlobales {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:flex-start;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+
+}

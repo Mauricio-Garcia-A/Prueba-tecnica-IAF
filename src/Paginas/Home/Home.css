@@ -1,0 +1,38 @@
+.contenedor-Home {
+    background-image: url(../../Imagenes/1.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+.contenedor-logo-Home{
+    text-align: start;
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.logo-Home {
+    width: 170px;
+}
+.contenedor-botones-seleccio-usuario-Home{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0 70px 0;
+}
+.contenedor-botones-redes-sociales-Home {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.boton-redes-sociales-EstillosGlobales {
+    margin: 10px;
+}
