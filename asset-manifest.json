@@ -1,16 +1,24 @@
 {
   "files": {
-    "main.css": "/Prueba-tecnica-IAF/static/css/main.073c9b0a.css",
-    "main.js": "/Prueba-tecnica-IAF/static/js/main.513c2053.js",
+    "main.css": "/Prueba-tecnica-IAF/static/css/main.7e296bf3.css",
+    "main.js": "/Prueba-tecnica-IAF/static/js/main.c4eef275.js",
     "static/js/787.9bc323f0.chunk.js": "/Prueba-tecnica-IAF/static/js/787.9bc323f0.chunk.js",
-    "static/media/logo.svg": "/Prueba-tecnica-IAF/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/3.png": "/Prueba-tecnica-IAF/static/media/3.443a4e625509f22c0293.png",
+    "static/media/1.png": "/Prueba-tecnica-IAF/static/media/1.63ad393e5b0946a31faa.png",
+    "static/media/2.png": "/Prueba-tecnica-IAF/static/media/2.26f8c197e3ea118197e2.png",
+    "static/media/mapa4.png": "/Prueba-tecnica-IAF/static/media/mapa4.9177c6649a40b9a882dc.png",
+    "static/media/mapa3.png": "/Prueba-tecnica-IAF/static/media/mapa3.9b2062c2aae07f03e76a.png",
+    "static/media/mapa1.png": "/Prueba-tecnica-IAF/static/media/mapa1.91c26cc31875bcdca077.png",
+    "static/media/mapa2.png": "/Prueba-tecnica-IAF/static/media/mapa2.e93fe8ac7c71c890b552.png",
+    "static/media/logo-iaf.png": "/Prueba-tecnica-IAF/static/media/logo-iaf.f95445e770764b5779ea.png",
+    "static/media/img-nueva-tegnologia.png": "/Prueba-tecnica-IAF/static/media/img-nueva-tegnologia.fa97e12b0356ba0cb84b.png",
     "index.html": "/Prueba-tecnica-IAF/index.html",
-    "main.073c9b0a.css.map": "/Prueba-tecnica-IAF/static/css/main.073c9b0a.css.map",
-    "main.513c2053.js.map": "/Prueba-tecnica-IAF/static/js/main.513c2053.js.map",
+    "main.7e296bf3.css.map": "/Prueba-tecnica-IAF/static/css/main.7e296bf3.css.map",
+    "main.c4eef275.js.map": "/Prueba-tecnica-IAF/static/js/main.c4eef275.js.map",
     "787.9bc323f0.chunk.js.map": "/Prueba-tecnica-IAF/static/js/787.9bc323f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.513c2053.js"
+    "static/css/main.7e296bf3.css",
+    "static/js/main.c4eef275.js"
   ]
 }
