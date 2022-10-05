@@ -30,7 +30,7 @@ const ContenidoModalLogin= () => {
             <input placeholder="Teléfono, e-mail o usuario"></input>
             <button className='boton-standar-1-EstillosGlobales' style={{ height:'50px' }}>Continuar</button>
             <button className='b2'>Crear cuenta</button>
-            <a href='/' className='b1'>Volver al HOME</a>  
+            <Link to='/Prueba-tecnica-IAF' className='b1'>Volver al HOME</Link>  
         </div>
     )
 }

@@ -12,7 +12,7 @@ function App() {
             <Route path="/Prueba-tecnica-IAF" element={<Home />} />
             <Route path="/:id" element={<SeccionPaciente />} />
             <Route path="/:id/:opcion" element={ <SeccionDetalles /> } />
-            <Route path="*/" element={ <div>ERROR</div>} />
+            <Route path="*" element={ <div>ERROR</div>} />
       </Routes>
     </div>
   );
