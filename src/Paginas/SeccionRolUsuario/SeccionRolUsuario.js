@@ -7,7 +7,7 @@ import mapa3 from '../../Imagenes/mapa3.png'
 import mapa4 from '../../Imagenes/mapa4.png'
 
 import '../../EstilosGlobales/EstilosGlobales.css'
-import './SeccionPaciente.css'
+import './SeccionRolUsuario.css'
 import IconoSVG from '../../Componentes/IconosSVG/IconoSVG';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import BreadCrumbs from '../../Componentes/BreadCrumbs/BreadCrumbs';
@@ -36,7 +36,7 @@ const ContenidoModalLogin= () => {
 }
 
 
-export default function SeccionPaciente(props) {
+export default function SeccionRolUsuario(props) {
 
     let { id } = useParams()
     let navigate = useNavigate();
