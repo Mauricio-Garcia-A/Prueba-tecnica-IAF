@@ -39,13 +39,13 @@ export default function useSimuladorAPI({tipo='especialidades-medicas', rol='pac
         },
         {
             tipo:'hub-del-paciente',
-            titulo:'',
-            descripcion:'',
+            titulo:'Contamos con  una HUB  en forma de bibliotecas digitales donde encontraras miles de artículos que guardan los conocimientos de mas de 30 años de experiencia.',
+            descripcion:'Gracias a nuestro formato de vinculación HUB, nuestro instituto cuenta con la opción de invitar pacientes a nuestros protocolos clínicos únicamente a través de su médico tratante. Esto, con el fin de poner a su disposición medicamentos que únicamente están disponibles para protocolos de investigación, sin ningún costo para el paciente ni para el médico.',
             seleccionOpcionesDetalles: [
-                {   texto:'',
+                {   texto:'VIDEO INFORMATIVO',
                 linkURL:''
                 },
-                {   texto:'',
+                {   texto:'ARTICULOS DESTACADOS',
                     linkURL:''
                 },   
             ]
@@ -62,39 +62,76 @@ export default function useSimuladorAPI({tipo='especialidades-medicas', rol='pac
         },
         {
             tipo:'visita-del-staff-medico',
-            titulo:'',
-            descripcion:'',
+            titulo:'El Instituto Alexander Fleming cuenta con un plantel de profesionales de reconocida trayectoria nacional e internacional, consustanciado con el concepto multidisciplinario de la medicina moderna.',
+            descripcion:'Este equipo de salud funciona, además, con gran efectividad en etapas de diagnóstico o tratamiento específico, luego de las cuales, el paciente retorna a su médico de cabecera o derivador con informes escritos para continuar con el proceso terapéutico en su lugar de origen.',
             seleccionOpcionesDetalles: [
-                {   texto:'',
-                linkURL:''
+            
+
+                {   texto:'DEPTO DE ONCOLOGÍA',
+                    linkURL:''
                 },
-                {   texto:'',
+                {   texto:'DEPTO DE CIRUGÍA ONCOLÓGICA',
+                    linkURL:''
+                },
+
+                {   texto:'DEPTO DE MEDICINA INTERNA',
+                    linkURL:''
+                },
+                {   texto:'DIAGNÓSTICO POR IMÁGENES',
+                    linkURL:''
+                },
+                {   texto:'DEPTO DE RADIOTERAPIA',
                     linkURL:''
                 },   
+                {   texto:'DEPTO DE HEMATOLOGÍA',
+                    linkURL:''
+                },
+                {   texto:'DEPTO DE ENFERMERÍA',
+                    linkURL:''
+                },
+
+                {   texto:'TERAPIA INTENSIVA',
+                    linkURL:''
+                },
+                {   texto:'CARDIO-ONCOLOGÍA',
+                    linkURL:''
+                },            
+                {   texto:'SERVICIO DE PSICO-ONCOLOGIA',
+                    linkURL:''
+                },
+                {   texto:'SERVICIO DE FARMACIA',
+                    linkURL:''
+                },
+                {   texto:'CENTRO DE INVESTIGACIONES ',
+                    linkURL:''
+                }, 
+                {   texto:'LABORATORIO CLÍNICOS',
+                    linkURL:''
+                }, 
             ]
         },
         {
             tipo:'noticias',
-            titulo:'',
-            descripcion:'',
+            titulo:'Informando siempre las ultimas Noticias en Oncología',
+            descripcion:'Web de Revista Noticias. Información de todo lo que pasa en el IAF, en Argentina y el mundo, relacionado con la salud. Entender cambia la vida.',
             seleccionOpcionesDetalles: [
-                {   texto:'',
-                linkURL:''
+                {   texto:'ULTIMAS NOTICIAS',
+                    linkURL:''
                 },
-                {   texto:'',
+                {   texto:'INFORMACION SALUD',
                     linkURL:''
                 },   
             ]
         },
         {
             tipo:'cursos-de-oncologia',
-            titulo:'',
-            descripcion:'',
+            titulo:'Brindamos a nuestros profesionales una serie de capacitaciones para fomentar su desarrollo profecional',
+            descripcion:'Aprende en el mejor centro-escuela en salud y con  los mejores docentes. Cursos  de capacitación relacionados a la salud, en modalidad presencial y virtual.',
             seleccionOpcionesDetalles: [
-                {   texto:'',
+                {   texto:'ANUALES',
                 linkURL:''
                 },
-                {   texto:'',
+                {   texto:'EVENTUALES',
                     linkURL:''
                 },   
             ]
