@@ -1,13 +1,18 @@
 import React from 'react';
-import logo from '../../Imagenes/logo-iaf.png'
+import { Link, useNavigate, useParams } from 'react-router-dom';
 
-import '../../EstilosGlobales/EstilosGlobales.css'
-import './SeccionDetalles.css'
+import logo from '../../Imagenes/logo-iaf.png'
+import imagenSitioConstruccion from '../../Imagenes/sitioConstruccion.png'
 import useSimuladorAPI from '../../Hooks/useSimuladorAPI';
-import { useNavigate, useParams } from 'react-router-dom';
 import BreadCrumbs from '../../Componentes/BreadCrumbs/BreadCrumbs';
 import IconoSVG from '../../Componentes/IconosSVG/IconoSVG';
 import useSEO from '../../Hooks/useSEO';
+import VentanaModal from '../../Componentes/VentanaModal/VentanaModal';
+
+import '../../EstilosGlobales/EstilosGlobales.css'
+import './SeccionDetalles.css'
+
+
 
 export default function SeccionDetalles(props) {
     let { id, opcion} = useParams()
@@ -44,9 +49,15 @@ export default function SeccionDetalles(props) {
             </section>               
             <div className='contenedor-botones-detalles-SeccionDetalles'>
                 {opcionSeleccionada.seleccionOpcionesDetalles.map((opcion,i)=>{
-                    return  <button key={`opcion-SD-${i}`} className='boton-standar-4-EstillosGlobales'>
-                                {opcion.texto}
-                            </button>
+                    return  <VentanaModal 
+                                titulo={opcion.texto} 
+                                textoBoton={opcion.texto} 
+                                estilosBoton='boton-standar-4-EstillosGlobales'
+                                key={`opcion-SD-${i}`}
+                            >
+                                <img src={imagenSitioConstruccion} className="logo-SeccionDetalles" alt="logo" />
+                                <Link to='/Prueba-tecnica-IAF' className='b1'>Volver al HOME</Link>  
+                            </VentanaModal>
                     })} 
             </div>
             <footer>

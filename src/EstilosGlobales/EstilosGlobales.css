@@ -5,6 +5,8 @@
 .texto-standar-1-EstillosGlobales {
     color:#ba0971;
     text-align: center;
+    font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+
 }
 
 .contenedor-standar-EstillosGlobales {
@@ -24,6 +26,7 @@
     height: 100px;
     text-decoration: none;
     transition: 0.7s ease all ;
+    cursor: pointer;
 }
 .boton-standar-1-EstillosGlobales:hover {
     background: rgb(222, 3, 131);
@@ -52,6 +55,7 @@
     margin: 20px 60px 20px 60px;
     text-decoration: none;
     transition: 0.7s ease all ;
+    cursor: pointer;
 
 }
 .boton-standar-2-EstillosGlobales:hover {
@@ -81,6 +85,7 @@
     width: 250px;
     height: 60px;
     transition: 0.7s ease all ;
+    cursor: pointer;
 }
 .boton-standar-3-EstillosGlobales:hover {
     background: rgb(98, 91, 203);
@@ -109,6 +114,7 @@
     height: 80px;
     margin: 20px 60px 20px 60px;
     transition: 0.7s ease all ;
+    cursor: pointer;
 }
 .boton-standar-4-EstillosGlobales:hover {
     background: rgb(255, 136, 0);
@@ -128,6 +134,12 @@
     border: 0;
     background: none;
     fill: #ba0971;
+    cursor: pointer;
+    transition: 0.7s ease all ;
+
+}
+.boton-redes-sociales-EstillosGlobales:hover {
+    fill: #e6118d;
 }
 
 .boton-back-GlobalStyle {
@@ -166,6 +178,4 @@
     align-items: center;
     margin-top: 10px;
     margin-bottom: 20px;
-
-
 }
