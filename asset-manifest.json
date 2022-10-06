@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Prueba-tecnica-IAF/static/css/main.8960c05b.css",
-    "main.js": "/Prueba-tecnica-IAF/static/js/main.a54c04ad.js",
+    "main.js": "/Prueba-tecnica-IAF/static/js/main.e4bd2143.js",
     "static/js/787.9bc323f0.chunk.js": "/Prueba-tecnica-IAF/static/js/787.9bc323f0.chunk.js",
     "static/media/3.png": "/Prueba-tecnica-IAF/static/media/3.443a4e625509f22c0293.png",
     "static/media/1.png": "/Prueba-tecnica-IAF/static/media/1.63ad393e5b0946a31faa.png",
@@ -15,11 +15,11 @@
     "static/media/img-nueva-tegnologia.png": "/Prueba-tecnica-IAF/static/media/img-nueva-tegnologia.fa97e12b0356ba0cb84b.png",
     "index.html": "/Prueba-tecnica-IAF/index.html",
     "main.8960c05b.css.map": "/Prueba-tecnica-IAF/static/css/main.8960c05b.css.map",
-    "main.a54c04ad.js.map": "/Prueba-tecnica-IAF/static/js/main.a54c04ad.js.map",
+    "main.e4bd2143.js.map": "/Prueba-tecnica-IAF/static/js/main.e4bd2143.js.map",
     "787.9bc323f0.chunk.js.map": "/Prueba-tecnica-IAF/static/js/787.9bc323f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8960c05b.css",
-    "static/js/main.a54c04ad.js"
+    "static/js/main.e4bd2143.js"
   ]
 }
